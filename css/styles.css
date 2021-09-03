@@ -49,5 +49,9 @@ i {
 
 .homework {
   margin: 50px;
+}
+
+.homework p,
+.homework h2 {
   text-align: center;
 }
