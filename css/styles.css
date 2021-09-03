@@ -1,0 +1,53 @@
+body {
+  background-color: #ecf2f5;
+}
+
+main {
+  background-color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 4px 4px 4px 4px hsla(0, 0%, 1%, 0.2);
+}
+h1 {
+  font-size: 45px;
+}
+h2 {
+  font-size: 30px;
+}
+.fname {
+  color: #019fb8;
+}
+.sname {
+  color: #d7631a;
+}
+i {
+  font-size: 18px;
+}
+.hero {
+  text-align: center;
+  margin: 50px;
+}
+
+.about {
+  background-color: rgb(250, 249, 249);
+  text-align: center;
+}
+
+.list {
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: flex;
+  height: 100vh;
+}
+
+.list li {
+  flex: 1 0 30%;
+}
+
+.homework {
+  margin: 50px;
+  text-align: center;
+}
