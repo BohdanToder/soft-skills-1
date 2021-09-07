@@ -1,10 +1,12 @@
 body {
-  background-color: #ecf2f5;
+  background-color: #e3edf1;
 }
 
-main {
+body {
   background-color: #ffffff;
   font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  text-shadow: 2px 2px 4px #e4dddd;
   width: 1200px;
   margin: 0 auto;
   padding-top: 10px;
@@ -40,6 +42,9 @@ i {
 .about {
   background-color: rgb(250, 249, 249);
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .list {
@@ -55,14 +60,40 @@ i {
 
 .about li {
   list-style-type: none;
+  margin-left: -40px;
 }
 
 .homework {
   margin: 50px;
 }
+.homework-list li {
+  padding-top: 5px;
+}
+.homework-title {
+  text-align: center;
+}
 
 .homework p,
 .homework h2 {
+  text-align: center;
+}
+.homework a:hover,
+.homework a:focus {
+  color: orange;
+}
+
+.chapters {
+  column-count: 2;
+}
+
+.chapters h4 {
+  padding-left: 65px;
+  column-span: all;
+}
+.chapters h5 {
+  padding-left: 35px;
+}
+.theses {
   text-align: center;
 }
 
@@ -73,4 +104,75 @@ i {
 .nomark a {
   color: #019fb8;
   text-decoration: none;
+}
+
+.header {
+  background-color: rgb(250, 249, 249);
+  color: #019fb8;
+  list-style-type: none;
+  text-decoration: none;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_link a {
+  color: #019fb8;
+  text-decoration: none;
+  padding-right: 15px;
+}
+.header_link a:hover,
+.header_link a:focus {
+  color: orange;
+}
+.logo {
+  padding-left: 20px;
+}
+
+.thanks {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(255, 60, 0);
+}
+
+.footer {
+  margin-bottom: 10px;
+  background-color: rgb(250, 249, 249);
+}
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-container a {
+  text-decoration: none;
+  padding-right: 50px;
+  color: #019fb8;
+}
+.footer-container a:hover,
+.footer-container a:focus {
+  color: orange;
+}
+
+.copyright {
+  text-align: center;
+  padding-bottom: 5px;
+}
+.social-networks {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.mindmap {
+  text-align: center;
+  color: #019fb8;
+  font-weight: bold;
 }
